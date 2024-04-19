@@ -3,7 +3,12 @@
 # ruby 4-hashes.rb
 
 # Hashes are lists of *key-value pairs*
+profile = { "name" => "Kilian", "status" => "Chilln" }
+p profile
 
 # Accessing data from the hash
+
+profile ["age"] = 12
+p profile
 
 # More Complex Hashes

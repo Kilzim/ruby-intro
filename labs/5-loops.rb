@@ -19,6 +19,19 @@ spades = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 # King of Spades
 # Ace of Spades
 
+# for rank in clubs
+#     puts "#{rank} of clubs"
+# end
+# for rank in diamonds
+#     puts "#{rank} of diamonds"
+# end
+# for rank in hearts
+#     puts "#{rank} of hearts"
+# end
+# for rank in spades
+#     puts "#{rank} of spades"
+# end
+
 # CHALLENGE #1
 # The arrays are identical for each suit and can be simplified by using
 # a ranks array as seen below. Try to complete the exercise again by
@@ -26,6 +39,13 @@ spades = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 
+for rank in ranks
+    for suit in suits
+    puts "#{rank} of #{suit}"
+    end
+end
+
 # CHALLENGE #2
 # Deal a poker hand. Shuffle the deck and "deal" (i.e. display) a 5 card hand (i.e. 5 cards from the deck).
 # You will want to look at the documentation for Arrays: https://ruby-doc.org/core-2.7.0/Array.html
+
